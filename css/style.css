@@ -1,0 +1,32 @@
+#gremio {
+  display: flex;
+  border: 1px solid black;
+}
+
+#perfume {
+  display: flex;
+}
+
+#nome {
+  display: flex;
+}
+
+#descricao {
+  display: flex;
+}
+
+#preco {
+  display: flex;
+}
+
+#preco2 {
+  display: flex;
+}
+
+#cart {
+  display: flex;
+}
+
+#carrinho {
+  display: flex;
+}/*# sourceMappingURL=style.css.map */
