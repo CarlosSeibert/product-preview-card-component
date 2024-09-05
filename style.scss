@@ -1,22 +1,33 @@
+// vh 100 é o maximo que a tela pode ter
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+body {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%)
+    ;
+}
+
 #gremio {
     display: flex;
-    border: 1px solid black;
     height: 400px;
     width: 550px;
     margin: auto;
     border-radius: 30px;
+    background-color: white;
 }
 
 #tudo {
     border: 1px solid blue;
     margin: auto;
     border-radius: 30px;
-
 }
 
-#fueto {
-    border: 1px solid black;
-    border-radius: 30px;
+img{
+    border-radius: 10px 0px 0px 10px;
 }
 
 #perfume {
@@ -28,14 +39,16 @@
 
 #nome {
     display: flex;
-    font-size: 30px;
+    font-size: 45px;
     border: 1px solid black;
+    margin-top: -40px;
 }
 
 #descricao {
     display: flex;
     font-size: 12px;
     border: 1px solid black;
+    margin-top: -40px;
 }
 
 #preco {
@@ -52,8 +65,13 @@
     font-size: 12px;
     border: 1px solid black;
 }
-
-#carrinho {
+// carrinho
+#cart    {
     display: flex;
+    background-color: hsl(158, 36%, 37%);   
+    border-radius: 10px;
+    &:hover {
+        background:hsl(147, 100%, 19%);
 
+    }
 }
