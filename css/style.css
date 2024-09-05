@@ -61,6 +61,7 @@ img {
   display: flex;
   font-size: 12px;
   border: 1px solid black;
+  margin-top: -40px;
 }
 
 #cart {
